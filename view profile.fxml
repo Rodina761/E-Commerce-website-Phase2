@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scenecontroller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="326.0" layoutX="2.0" layoutY="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@Payment%20image.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="272.0" layoutX="328.0" pickOnBounds="true">
+         <image>
+            <Image url="@WhatsApp%20Image%202024-12-21%20at%2018.35.02.jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="24.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Name">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <TextField fx:id="newcustname" layoutX="165.0" layoutY="87.0" prefHeight="25.0" prefWidth="143.0" />
+      <Text layoutX="24.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Password" wrappingWidth="115.392578125">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <TextField fx:id="newpassword" layoutX="165.0" layoutY="120.0" prefHeight="25.0" prefWidth="143.0" />
+      <Text layoutX="24.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Date of Birth">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <DatePicker fx:id="dateOfBirth" layoutX="165.0" layoutY="188.0" prefHeight="25.0" prefWidth="143.0" />
+      <Text layoutX="105.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Gender">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <CheckBox fx:id="fcheck" layoutX="51.0" layoutY="338.0" mnemonicParsing="false" text="Female" />
+      <CheckBox fx:id="mcheck" layoutX="197.0" layoutY="338.0" mnemonicParsing="false" text="Male" />
+      <Text layoutX="24.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Balance">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="newbalance" layoutX="165.0" layoutY="153.0" prefHeight="25.0" prefWidth="143.0" />
+      <Label layoutX="22.0" layoutY="227.0" text="Interests">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="interests" layoutX="52.0" layoutY="261.0" prefHeight="49.0" prefWidth="226.0" />
+      <Label fx:id="trial" layoutX="19.0" layoutY="24.0" text="Helloo">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="97.0" layoutY="362.0" mnemonicParsing="false" onAction="#updateProfile" text="Update Profile">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+   </children>
+</Pane>

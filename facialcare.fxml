@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scenecontroller">
+   <top>
+      <AnchorPane prefHeight="46.0" prefWidth="718.0" style="-fx-background-color: #DDB892;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="35.0" layoutY="11.0" mnemonicParsing="false" onAction="#switchToHomepage3" style="-fx-background-color: #DDB892;" text="Home" underline="true" wrapText="true" />
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="470.0" prefWidth="734.0" style="-fx-background-color: #E6CCB2;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="273.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Facial Care" wrappingWidth="188.53671264648438">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="206.0" layoutX="26.0" layoutY="96.0" pickOnBounds="true">
+               <image>
+                  <Image url="@WhatsApp%20Image%202024-12-22%20at%2000.31.17.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="86.0" layoutY="266.0" text="Sun Screen">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="50.0" layoutY="327.0" mnemonicParsing="false" onAction="#addSunscreen" prefHeight="35.0" prefWidth="144.0" style="-fx-border-color: #723d46; -fx-background-color: #E6CCB2; -fx-border-radius: 20px;" text="Add to Cart">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="206.0" layoutX="256.0" layoutY="96.0" pickOnBounds="true">
+               <image>
+                  <Image url="@1(1).jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="325.0" layoutY="265.0" text="Cleanser">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="206.0" layoutX="475.0" layoutY="96.0" pickOnBounds="true">
+               <image>
+                  <Image url="@WhatsApp%20Image%202024-12-22%20at%2000.31.18.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="553.0" layoutY="265.0" prefHeight="22.0" prefWidth="70.0" text="Razor" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="287.0" layoutY="327.0" mnemonicParsing="false" onAction="#addCleanser" prefHeight="35.0" prefWidth="144.0" style="-fx-border-color: #723d46; -fx-background-color: #E6CCB2; -fx-border-radius: 20px;" text="Add to Cart">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="506.0" layoutY="327.0" mnemonicParsing="false" onAction="#addRazor" prefHeight="35.0" prefWidth="144.0" style="-fx-border-color: #723d46; -fx-background-color: #E6CCB2; -fx-border-radius: 20px;" text="Add to Cart">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="108.0" layoutY="296.0" text="500 LE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="338.0" layoutY="296.0" text="300 LE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="558.0" layoutY="296.0" text="50 LE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

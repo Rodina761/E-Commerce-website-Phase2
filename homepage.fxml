@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="766.0" style="-fx-background-color: #e6ccb2;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scenecontroller">
+   <top>
+      <AnchorPane prefHeight="58.0" prefWidth="609.0" style="-fx-background-color: #ddb892;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="14.0" layoutY="17.0" mnemonicParsing="false" style="-fx-background-color: #ddb892;" text="Cart" underline="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="64.0" layoutY="17.0" mnemonicParsing="false" onAction="#switchToOrder" style="-fx-background-color: #ddb892;" text="Orders" underline="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="133.0" layoutY="17.0" mnemonicParsing="false" onAction="#switchToLogin" style="-fx-background-color: #ddb892;" text="Logout" underline="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="374.0" prefWidth="650.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="193.0" fitWidth="149.0" layoutX="437.0" layoutY="267.0" pickOnBounds="true">
+               <image>
+                  <Image url="@wash_AND_moisturize_your_skin_-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="186.0" fitWidth="134.0" layoutX="139.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WhatsApp_Image_2024-12-21_at_23.19.17-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="193.0" fitWidth="149.0" layoutX="447.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Skin_Care_Products_Photography___Jennifer_Klüpfel_Fotografie-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="102.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WhatsApp_Image_2024-12-21_at_23.33.53-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="457.0" layoutY="13.0" mnemonicParsing="false" onAction="#switchToFacialCare" style="-fx-background-color: #e6ccb2;" text="Facial Care">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="161.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToBodyCare" style="-fx-background-color: #e6ccb2;" text="Body Care">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="163.0" layoutY="240.0" mnemonicParsing="false" onAction="#switchToHairCare" style="-fx-background-color: #e6ccb2;" text="Hair Care">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="463.0" layoutY="247.0" mnemonicParsing="false" onAction="#switchToHandCare" style="-fx-background-color: #e6ccb2;" text="Hand Care">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
